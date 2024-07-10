@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laazizi Villas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Include Lightbox2 CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 style="padding: 0.3em">Laazizi Villas</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#book-now">Book Now</a></li>
+          <li><a href="#villas">Villas</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Welcome to Laazizi Villas</h2>
+        <p>Book your perfect villa vacation today!</p>
+        <a href="#book-now" class="btn">Book Now</a>
+      </div>
+    </section>
+
+    <section id="book-now" class="book-now">
+      <div class="container">
+        <h2>Book Now</h2>
+        <p>Fill out the form to book your stay at our splendid villas.</p>
+        <form action="coming_soon.com" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="villa">Select Villa:</label>
+          <select id="villa" name="villa">
+            <option value="villa1">Serenity Villa</option>
+            <option value="villa2">Galaxy Villa</option>
+            <option value="villa3">Infinity Villa</option>
+            <!-- Add more options as needed -->
+          </select>
+          <label for="checkin">Check-in Date:</label>
+          <input type="date" id="checkin" name="checkin" required />
+          <label for="checkout">Check-out Date:</label>
+          <input type="date" id="checkout" name="checkout" required />
+          <label for="visitors">Number of Guests:</label>
+          <input type="number" id="guests" name="guests" min="1" required />
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="villas" class="villas">
+      <div class="container">
+        <h2 style="color: aliceblue">Our Villas</h2>
+        <div class="villa-list">
+          <!-- Example villa card -->
+          <div class="villa">
+            <img src="villa1.jpg" alt="Villa 1" />
+            <h3>Serenity Villa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#book-now" class="btn">Book Now</a>
+          </div>
+          <!-- Add more villa cards as needed -->
+          <!-- Example villa card -->
+          <div class="villa">
+            <img src="villa2.jpg" alt="Villa 1" />
+            <h3>Galaxy Villa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#book-now" class="btn">Book Now</a>
+          </div>
+          <!-- Add more villa cards as needed -->
+          <!-- Example villa card -->
+          <div class="villa">
+            <img src="villa3.jpg" alt="Villa 1" />
+            <h3>Infinity Villa</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#book-now" class="btn">Book Now</a>
+          </div>
+          <!-- Add more villa cards as needed -->
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Services & Amenities</h2>
+        <p>
+          We offer a variety of services to make your stay comfortable and
+          memorable.
+        </p>
+        <ul>
+          <li>Private Pools</li>
+          <li>Meal Catering</li>
+          <li>Couple Experience</li>
+          <li>Stay Safe</li>
+          <li>Fireplace</li>
+          <li>Tea Coffee</li>
+          <li>Relaxing</li>
+          <li>Nature</li>
+          <li>Cleaning Service</li>
+          <li>Hot Showers</li>
+          <li>Grill</li>
+          <li>Game Room</li>
+          <li>24/7 Customer Support</li>
+          <li>Special Events</li>
+          <li>Parking Lots</li>
+          <li>Room Service</li>
+          <!-- Add more services as needed -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="gallery-list">
+          <a href="img1.jpg" data-lightbox="villa-gallery"
+            ><img src="img1_thumb.jpg" alt="Gallery Image 1"
+          /></a>
+          <a href="img2.jpg" data-lightbox="villa-gallery"
+            ><img src="img2_thumb.jpg" alt="Gallery Image 2"
+          /></a>
+          <a href="img3.jpg" data-lightbox="villa-gallery"
+            ><img src="img3_thumb.jpg" alt="Gallery Image 3"
+          /></a>
+          <a href="img4.jpg" data-lightbox="villa-gallery"
+            ><img src="img4_thumb.jpg" alt="Gallery Image 3"
+          /></a>
+          <a href="img5.jpg" data-lightbox="villa-gallery"
+            ><img src="img5_thumb.jpg" alt="Gallery Image 3"
+          /></a>
+          <a href="img6.jpg" data-lightbox="villa-gallery"
+            ><img src="img6_thumb.jpg" alt="Gallery Image 3"
+          /></a>
+          <a href="img7.jpg" data-lightbox="villa-gallery"
+            ><img src="img7_thumb.jpg" alt="Gallery Image 3"
+          /></a>
+          <!-- Add more images as needed -->
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <div class="container">
+        <h2 style="color: aliceblue">Guest Reviews</h2>
+        <div class="review-list">
+          <div class="review">
+            <h3>John Doe</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et
+              nisl nec justo tincidunt mollis.
+            </p>
+          </div>
+          <div class="review">
+            <h3>Jane Doe</h3>
+            <p>
+              Nulla tincidunt ligula vel quam suscipit, ac sodales dui commodo.
+              In nec orci in lorem dapibus aliquet.
+            </p>
+          </div>
+          <!-- Add more reviews as needed -->
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          We offer the best villa rentals around the world, ensuring you have a
+          luxurious and memorable vacation.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 style="color: aliceblue">Contact Us</h2>
+        <form action="submit_contact.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Laazizi Villas. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Include Lightbox2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+  </body>
+</html>
